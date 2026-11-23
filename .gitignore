@@ -217,6 +217,7 @@ tempCodeRunnerFile.py
 # Marimo
 marimo/_static/
 marimo/_lsp/
+food-101/
 __marimo__/
 
 # Streamlit
