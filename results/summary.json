@@ -1,0 +1,44 @@
+{
+  "quick_mode": true,
+  "tune_size": 3000,
+  "n_features": 1822,
+  "KNN": {
+    "best_params": {
+      "clf__metric": "manhattan",
+      "clf__n_neighbors": 1
+    },
+    "accuracy": 0.13,
+    "macro_f1": 0.12115525367241183,
+    "train_time_s": 0.2576773166656494,
+    "predict_time_total_s": 18.633166313171387,
+    "predict_time_per_image_ms": 3.726633262634277,
+    "best_cv_macro_f1": 0.10017160269070366,
+    "top_confusions": [
+      "greek_salad -> pizza: 85",
+      "poutine -> pizza: 77",
+      "waffles -> pizza: 75",
+      "fried_rice -> pizza: 75",
+      "omelette -> pizza: 73"
+    ]
+  },
+  "SVM": {
+    "best_params": {
+      "clf__C": 1,
+      "clf__gamma": 0.001,
+      "clf__kernel": "rbf"
+    },
+    "accuracy": 0.3416,
+    "macro_f1": 0.3334912798993687,
+    "train_time_s": 130.65049123764038,
+    "predict_time_total_s": 63.38604235649109,
+    "predict_time_per_image_ms": 12.677208471298218,
+    "best_cv_macro_f1": 0.1904728437970819,
+    "top_confusions": [
+      "ice_cream -> chocolate_cake: 44",
+      "ramen -> pho: 40",
+      "hot_dog -> french_fries: 34",
+      "steak -> chocolate_cake: 31",
+      "tacos -> caesar_salad: 30"
+    ]
+  }
+}

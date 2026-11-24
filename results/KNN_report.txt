@@ -1,0 +1,26 @@
+                     precision    recall  f1-score   support
+
+          hamburger      0.151     0.056     0.082       250
+            hot_dog      0.430     0.196     0.269       250
+              pizza      0.097     0.504     0.163       250
+              tacos      0.114     0.064     0.082       250
+      chicken_wings      0.078     0.024     0.037       250
+       french_fries      0.490     0.100     0.166       250
+            poutine      0.058     0.024     0.034       250
+           pancakes      0.174     0.196     0.185       250
+            waffles      0.125     0.056     0.077       250
+           omelette      0.087     0.052     0.065       250
+     chocolate_cake      0.212     0.100     0.136       250
+          ice_cream      0.322     0.076     0.123       250
+             donuts      0.286     0.096     0.144       250
+spaghetti_bolognese      0.100     0.220     0.138       250
+              ramen      0.149     0.104     0.122       250
+                pho      0.233     0.216     0.224       250
+         fried_rice      0.094     0.320     0.146       250
+              steak      0.127     0.056     0.078       250
+       caesar_salad      0.094     0.084     0.089       250
+        greek_salad      0.077     0.056     0.065       250
+
+           accuracy                          0.130      5000
+          macro avg      0.175     0.130     0.121      5000
+       weighted avg      0.175     0.130     0.121      5000
